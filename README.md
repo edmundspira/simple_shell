@@ -124,6 +124,5 @@ Implement the env built-in, that prints the current environment
 
 ## Collaborators
 
-[Laban Rotich] (https://github.com/Laban254)
-
-[Edmund Spira] (https://github.com/edmundspira)
+[Laban Rotich](https://github.com/laban254)
+[Edmund Spira](https://github.com/edmundspira)
