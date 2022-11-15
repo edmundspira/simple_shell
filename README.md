@@ -125,4 +125,15 @@ Implement the env built-in, that prints the current environment
 ## Collaborators
 
 [Laban Rotich](https://github.com/laban254)
+
 [Edmund Spira](https://github.com/edmundspira)
+
+## References
+
+[Let's Build a Command Line Shell in C](http://www.dmulholl.com/lets-build/a-command-line-shell.html#:~:text=Let%27s%20Build%20a%20Command%20Line%20Shell%20in%20C,...%204%20Step%204%20%E2%80%94%20Supporting%20Builtins%20)
+
+[Tutorial to code a simple shell in C](https://www.linkedin.com/pulse/tutorial-code-simple-shell-c-ricardo-hincapi%C3%A9-trujillo/)
+
+[Make your own simple shell in C](https://www.linkedin.com/pulse/make-your-own-simple-shell-c-norman-isaza/)
+
+
