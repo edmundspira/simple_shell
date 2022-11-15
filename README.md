@@ -58,69 +58,35 @@ Your shell should not have any memory leaks
 
 No more than 5 functions per file
 
-All your header files should be include guarded
 
-Use system calls only when you need to (why?)
+## Steps in order to use our shell
 
-Write a README with the description of your project
+To try out our shell use the following steps
 
-You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
+Step 1: Clone our repository using this command, (you need to have git installed on your machine first)
 
-## Tasks
+``` git clone https://github.com/edmundspira/simple_shell  ``` 
 
-### 0. README, man, AUTHORS
+Step 2: Change directory to simple_shell:
 
-### 1. Write a (README)[./README.md]
+``` cd simple_shell ```
 
-Write a (man)[./man_1_simple_shell] for your shell.
-You should have an (AUTHORS)[./AUTHORS] file at the root of your repository, listing all individuals having contributed content to the repository.
+Step 3: Compile the C files in this way:
 
+``` gcc -Wall -Werror -Wextra -pedantic *.c -o hsh ```
 
-### 1. Betty would be proud
+Step 4: Run the shell
 
-Write a beautiful code that passes the Betty checks
+``` ./hsh ```
 
-### 2. Simple shell 0.1
+Exiting the shell When you want to exit the shell, you can use one of the following methods: 
 
-Write a UNIX command line interpreter.
+1: Type the command "exit"
 
-Your Shell should:
+``` exit ```
 
-Display a prompt and wait for the user to type a command. A command line always ends with a new line.
+2: Press on  Ctrl + D 
 
-The prompt is displayed again each time a command has been executed.
-
-The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
-
-The command lines are made only of one word. No arguments will be passed to programs.
-
-If an executable cannot be found, print an error message and display the prompt again.
-
-Handle errors.
-
-You have to handle the "end of file" condition (Ctrl+D)
-
-### 3. Simple shell 0.2
-
-Handle command lines with arguments
-
-### 4. Simple shell 0.3
-
-Handle the PATH
-
-### 5. Simple shell 0.4
-
-Implement the exit built-in, that exits the shell
-
-Usage: exit
-
-You dont have to handle any argument to the built-in exit
-
-### 6. Simple shell 1.0
-
-Implement the env built-in, that prints the current environment
-
-### 7. What happens when you type ls -l in the shell
 
 ## Collaborators
 
