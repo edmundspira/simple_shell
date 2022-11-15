@@ -121,3 +121,9 @@ You dont have to handle any argument to the built-in exit
 Implement the env built-in, that prints the current environment
 
 ### 7. What happens when you type ls -l in the shell
+
+## Collaborators
+
+[Laban Rotich] (https://github.com/Laban254)
+
+[Edmund Spira] (https://github.com/edmundspira)
