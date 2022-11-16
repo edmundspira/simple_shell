@@ -102,4 +102,5 @@ Exiting the shell When you want to exit the shell, you can use one of the follow
 
 [Make your own simple shell in C](https://www.linkedin.com/pulse/make-your-own-simple-shell-c-norman-isaza/)
 
-
+Make sure you Have a valid and updated compiler. Use Clang if you have to :)
+            Download Clang here:<< https://releases.llvm.org/download.html >>
